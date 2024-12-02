@@ -26,25 +26,30 @@ html,body{
     z-index: 101;
     color: black;
 }
-#nav h1{
-    
-}
+
 #nav img{
     height: 75px;
     display: flex;
 }
-#nav div{
-    height: 50px;
-    width: 90px;
-    background-color: rgb(138, 239, 61);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 15px;
-    
+.item{
+    text-decoration: none; 
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.749); 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: color 0.3s ease;
 }
+.item:hover{
+        color: #06822f;
+}
+.btn-popup{
+    width:12%;
+    height:35%;
+    font-size: 18px;
+    background-color: #8edaa7;
+    border-radius: 8px;
+}
+
 video{
     height: 100%;
     width: 100%;
